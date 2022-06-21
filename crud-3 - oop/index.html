@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body data-js-body>
+    <form action="" data-js-employee-form>
+        <p>
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" data-js-name />
+        </p>
+
+        <p>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" data-js-email />
+        </p>
+
+        <p>
+            <label for="mobile">Mobile</label>
+            <input id="mobile" type="text" name="mobile" data-js-mobile />
+        </p>
+
+
+        <p>
+            <input type="submit" value="Submit" data-js-submit />
+            <input type="hidden" value="" data-js-content-id />
+        </p>
+    </form>
+
+    <hr/>
+
+    <table border="1" data-js-employee-table >
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="./app.js"></script>
+</body>
+</html>
